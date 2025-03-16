@@ -15,15 +15,13 @@
     <ClInclude Include="D3D12HelloWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DXSample.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DXSampleHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Win32Application.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DXSample.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -35,12 +33,10 @@
     <ClCompile Include="D3D12HelloWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DXSample.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Win32Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DXSample.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
